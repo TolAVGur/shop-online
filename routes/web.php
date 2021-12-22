@@ -29,3 +29,7 @@ Route::get('/cart', CartComponent::class );
 Route::get('/checkout', CheckoutComponent::class );
 Route::get('/contact', ContactComponent::class );
 Route::get('/shop', ShopComponent::class );
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
