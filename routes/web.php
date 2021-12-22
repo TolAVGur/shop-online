@@ -30,6 +30,16 @@ Route::get('/checkout', CheckoutComponent::class );
 Route::get('/contact', ContactComponent::class );
 Route::get('/shop', ShopComponent::class );
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+/*Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
-})->name('dashboard');
+})->name('dashboard');*/
+
+//for USER
+Route::middleware(['auth:sanctum', 'verified'])->group(function() {
+
+});
+
+//for ADMIN
+Route::middleware(['auth:sanctum', 'verified'])->group(function() {
+
+});
