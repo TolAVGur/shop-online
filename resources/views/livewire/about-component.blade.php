@@ -110,7 +110,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="LEONA">
-                                <figure><img src="assets/images/member-leona.jpg" alt="LEONA"></figure>
+                                <figure><img src="{{ asset('assets/images/member-leona.jpg') }}" alt="LEONA"></figure>
                             </a>
                         </div>
                         <div class="info">
@@ -123,7 +123,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="LUCIA">
-                                <figure><img src="assets/images/member-lucia.jpg" alt="LUCIA"></figure>
+                                <figure><img src="{{ asset('assets/images/member-lucia.jpg') }}" alt="LUCIA"></figure>
                             </a>
                         </div>
                         <div class="info">
@@ -136,7 +136,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="NANA">
-                                <figure><img src="assets/images/member-nana.jpg" alt="NANA"></figure>
+                                <figure><img src="{{ asset('assets/images/member-nana.jpg') }}" alt="NANA"></figure>
                             </a>
                         </div>
                         <div class="info">
@@ -149,7 +149,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="BRAUM">
-                                <figure><img src="assets/images/member-braum.jpg" alt="BRAUM"></figure>
+                                <figure><img src="{{ asset('assets/images/member-braum.jpg') }}" alt="BRAUM"></figure>
                             </a>
                         </div>
                         <div class="info">
@@ -162,7 +162,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="LUCIA">
-                                <figure><img src="assets/images/member-lucia.jpg" alt="LUCIA"></figure>
+                                <figure><img src="{{ asset('assets/images/member-lucia.jpg') }}" alt="LUCIA"></figure>
                             </a>
                         </div>
                         <div class="info">
@@ -175,7 +175,7 @@ About us
                     <div class="team-member equal-elem">
                         <div class="media">
                             <a href="#" title="NANA">
-                                <figure><img src="assets/images/member-nana.jpg" alt="NANA"></figure>
+                                <figure><img src="{{ asset('assets/images/member-nana.jpg') }}" alt="NANA"></figure>
                             </a>
                         </div>
                         <div class="info">
