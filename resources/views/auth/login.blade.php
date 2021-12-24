@@ -50,6 +50,9 @@
 --}}
 
 <x-guest-layout>
+    @section('title')
+    Authorization
+    @endsection
 <!--main area-->
 <main id="main" class="main-site left-sidebar">
 
