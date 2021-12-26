@@ -3,12 +3,12 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use Livewire\WithPagination;
+//use Livewire\WithPagination;
 use App\Models\Product;
 
 class ShopComponent extends Component
 {
-    use WithPagination;
+    //use WithPagination;
 
     public function render()
     {
