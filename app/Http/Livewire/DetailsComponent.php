@@ -8,8 +8,9 @@ use Cart;
 
 class DetailsComponent extends Component
 {
-    public $slug;
+    public $slug;  // краткий псевдоним продукта
 
+    // mount- инициализирует slug, сробатывает перед прорисовкой
     public function mount($slug) {
         $this->slug = $slug;
     }
